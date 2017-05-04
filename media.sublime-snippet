@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+@media all and (max-width: ???px){
+
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>.medmax</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
