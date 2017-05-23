@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+//rip out share window, put inside of relative div (in the same place)
+
+//create div to house elements
+\$('.right-side-btns').prepend('<div class="relativeDiv relativeDiv--share"><div class="insertFlag--share"></div></div>')
+//rip share-main and place after the flag div
+\$('#share-main-hub').insertAfter('.insertFlag--share');
+\$('.share-toggle').insertAfter('.insertFlag--share');
+
+//do the same to search box
+\$('.right-side-btns').prepend('<div class="relativeDiv relativeDiv--search"><div class="insertFlag--search"></div></div>')
+\$('.search-drop-down').insertAfter('.insertFlag--search');
+\$('.search-container').insertAfter('.insertFlag--search');  
+  	]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>.navFixJS</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js,source.js,meta.group.braces.round.js,meta.group.braces.curly.js</scope>
+</snippet>
