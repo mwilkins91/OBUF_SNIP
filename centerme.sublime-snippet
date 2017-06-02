@@ -1,11 +1,12 @@
 <snippet>
 	<content><![CDATA[
-//cihost.uberflip.com/<companyfolder>/<yourpath>
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>cihost</tabTrigger>
+	<tabTrigger>.centerme</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.css</scope>
-	<scope>source.sass</scope>
-	<scope>text.html</scope>
+	<!-- <scope>source.python</scope> -->
 </snippet>

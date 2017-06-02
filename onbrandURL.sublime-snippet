@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+//cihost.uberflip.com/{companyfolder}/{yourpath}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>.cihost</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js,source.js,meta.group.braces.round.js,meta.group.braces.curly.js,source.css,string.quoted.single.css,text.basic.html,meta.inline.tag.any.html,string.quoted.double.html</scope>
+
+</snippet>

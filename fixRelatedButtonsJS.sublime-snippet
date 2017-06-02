@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+   \$('#related-items .carousel-nav').append('<button class="specialPrev"> <i class="fa fa-angle-left"></i> </button>')
+   \$('#related-items .carousel-nav').append('<button class="specialNext"> <i class="fa fa-angle-right"></i> </button>')
+    \$(document).on('click', '.specialPrev', function(event) {
+      event.preventDefault();
+      /* Act on the event */
+      // console.log('hello!')
+      \$('#relatedNavPrev').click();
+    });
+        \$(document).on('click', '.specialNext', function(event) {
+      event.preventDefault();
+      /* Act on the event */
+      // console.log('goodbye!')
+      \$('#relatedNavNext').click();
+    });  
+  	]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>.fixRelatedButtonsJS</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js,source.js,meta.group.braces.round.js,meta.group.braces.curly.js</scope>
+</snippet>
